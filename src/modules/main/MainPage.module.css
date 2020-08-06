@@ -1,0 +1,70 @@
+.container{
+    background-color:steelblue;
+    position: relative;
+    display: grid;
+    padding: 15%;
+    height: 40vh;
+}
+
+.back{
+    background-image: url('./res/city-street.png');
+    width: 100vw;
+    height: 55vh;
+    background-size:contain;
+    background-position:top;
+    background: cover;
+    position: absolute;
+    top: 57%;
+}
+
+.building{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    background-color: #cf6c33;
+    height: 450px;
+    transform: translate(-50%, -50%);
+}
+
+
+.windows{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #cf6c33;
+    padding: 10px;
+    width: 300px;
+    height: 350px;
+}
+
+.window_off{
+    background-color: rgb(39, 39, 39);
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.window_on{
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.window_non{
+    background-color: rgba(209, 35, 35, 0.8);
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ground_floor{
+    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #cf6c33;
+    padding: 20px;
+}
